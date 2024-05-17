@@ -25,7 +25,7 @@ let paypay = PayPay();
 	await paypay.loginStart("08019816837", "qwerty");
 	let token = await paypay.loginConfirm("https://www.paypay.ne.jp/portal/oauth2/l?id=xxxxxx");
 	console.log(token);
-});
+})();
 ```
 
 ## ライセンス
